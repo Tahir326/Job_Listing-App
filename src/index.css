@@ -1,0 +1,324 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.nvbar:hover{
+  font-size: 32px;
+}
+.jobimg:hover{
+  height: 48px;
+  width: 48px;
+}
+.select:focus {
+  outline: none;
+}
+
+.jobcard:hover{
+  transform: translateY(-1px);
+}
+
+@media only screen and (max-width: 450px) {
+  html{
+
+    overflow-x: hidden;
+  }
+  body {
+      background: linear-gradient(to right, #d7d2cc 0, #304352 100%);
+      overflow-x: hidden;
+
+ 
+  }
+
+  #topnav{
+    margin-left: 10%;
+
+  }
+  .nvbar{
+    margin-left: -3%;
+  }
+  #discrp{
+    margin-left: 1.75% ;
+    text-align: center;
+    margin-top: 0;
+
+  }
+  #pdiscrp{
+  font-weight: bold;
+
+  }
+  #smll{
+    margin-left: -1.5%;
+    font-size: small;
+  }
+  #sb1{
+    padding-left: 0.3rem;
+    padding-right: 0.1rem ;
+    
+    font-size: 8px;
+    
+
+  }
+  #mainDD{
+    margin-top: 0.1rem;
+
+    margin-left: 5rem;
+    margin-right: 3rem;
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+
+
+  }
+  .select{
+    margin-left:0.2rem ;
+    margin-right: 0.015rem;
+    border-radius: 15px;
+  
+
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    font-size: 8px;
+
+    padding-top: 0.2rem;
+    padding-bottom:  0.2rem;
+
+  }
+  #btn1{
+    padding-left: 0.5rem;
+    padding-right: 0.3rem;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+
+    border-radius: 10px;
+    padding-top: 0.15rem;
+    padding-bottom:  0.15rem;
+    font-size: 9.5px;
+
+  } 
+  #btn2div{
+    margin-left: 5rem;
+
+  }
+
+  #btn2{
+
+    border-radius: 20px;
+    margin-left: 25%;
+    font-size: 9.5px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-top: 0.2rem;
+
+   }
+   .jobcard{
+    margin-top: 0.45rem;
+    padding: 0.15rem 0.05rem 0.15rem 0.05rem  ;
+    width: 95%;
+    margin-left:2.7%;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+
+  }
+  #jbtitle{
+    font-weight: 600;
+    font-size: small;
+
+  }
+
+
+  #jobdiv2{
+    margin-left:5%;
+    margin-top: 0.5rem;
+    font-size:x-small;
+  }
+  #jobdiv3{
+    font-size:x-small;
+    
+  }
+
+  #jobdiv3_1{
+    border-radius: 10px;
+    background-color: #a0aec0;
+    cursor: pointer;
+    color: black;
+    margin-right: 0.25rem; 
+    margin-left: 0.1rem;  
+    margin-top: 0.2rem;   
+    padding-left: 0.3rem;  
+    padding-right: 0.3rem; 
+    
+  }
+  #jobdiv4{
+    margin-right: 5%;
+    gap: 1rem;
+    margin-bottom: 1.95%;
+    
+  }
+  #jobdiv5{
+    margin-top: 1rem;
+    font-size:x-small;
+    
+
+
+  }
+  #jobdib4_1{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-top: 0.125rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: blue;
+    border: 2px solid #3b5f9c;
+    font-size:x-small;
+    margin-left: 1%;
+  }
+
+
+  
+}
+
+@media only screen and (min-width: 1024px) {
+  html{
+
+    overflow-x: hidden;
+  }
+
+    body {
+      background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+      overflow-x: hidden;
+      
+    }
+  
+  
+    .navbar{
+      background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    }
+    
+    #sml{
+      font-size: small;
+    }
+
+    #discrp{
+      margin-top: 2%;
+    }
+    #pdiscrp{
+      font-weight: bold;
+    }
+  
+    #smll{
+      font-size: 25px;
+    }
+    #mainDD{
+      margin-top: 2.5rem;
+      
+      margin-left: 2.5rem;
+      margin-right: 3.5rem;
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+
+
+    }
+    .select{
+      margin-left:4rem ;
+      margin-right: 3rem;
+      border-radius: 15px;
+      width: 10%;
+      padding-left: 1rem;
+      padding-right: 1.5rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    #btn1{
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+  
+      border-radius: 15px;
+      padding-top: 0.5rem;
+      padding-bottom:  0.5rem;
+
+    } 
+
+    #btn2{
+     width: 10%;
+     border-radius: 15px;
+     margin-left: 43%;
+
+     padding-top: 0.5rem;
+     padding-bottom: 0.5rem;
+     margin-top: 1rem;
+
+    }
+
+    #btn2div{
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+    }
+
+    .jobcard{
+      margin-top: 1.5rem;
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem  ;
+      width: 70%;
+      margin-left: 15%;
+      border-radius: 1rem;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+    }
+    #jbtitle{
+      font-weight: 600;
+      font-size: xx-large;
+
+    }
+    #jobdiv2{
+      margin-left:5%;
+      margin-top: 0.5rem;
+    }
+
+    #jobdiv3_1{
+      border-radius: 10px;
+      background-color: #a0aec0;
+      cursor: pointer;
+      color: black;
+      margin-right: 0.25rem; 
+      margin-left: 0.1rem;  
+      margin-top: 0.25rem;   
+      padding-left: 0.5rem;  
+      padding-right: 0.5rem; 
+    }
+    #jobdiv4{
+      margin-right: 5%;
+      gap: 1rem;
+    }
+    #jobdiv5{
+      margin-top: 1rem;
+    }
+    #jobdib4_1{
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      margin-top: 0.125rem;
+      border-radius: 10px;
+      cursor: pointer;
+      color: blue;
+      border: 2px solid #3b5f9c;
+    }
+  
+}
